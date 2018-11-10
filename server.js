@@ -1,6 +1,5 @@
 const { scanf } = require('nodejs-scanf');
 
-
 const randomNumber = (value) => {
     return new Promise((resolve, reject) => {
         if (typeof value == 'number') {
@@ -11,7 +10,7 @@ const randomNumber = (value) => {
 }
 
 const showResult = (value) => {
-    randomNumber(value).then((result) => console.log(result))
+    randomNumber(value).then((result) => console.log(`Random number between 0 and ${value} is ${result}`))
                        .catch((err) => console.log(`Error: ${err}`));
 }
 
