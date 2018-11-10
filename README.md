@@ -1,1 +1,1 @@
-Creamos un proyecto con un server.js que cuenta el número de palabras de un archivo .txt cuyo nombre le pasamos por parámetro.
+Creamos un proyecto con un script que dado un fichero (pedido por consola) genere otro fichero con cada palabra en una nueva línea.
