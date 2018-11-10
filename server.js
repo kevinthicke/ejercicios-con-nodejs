@@ -6,9 +6,7 @@ const randomNumber = (value) => {
         if (typeof value == 'number') {
             const random = Math.floor(Math.random() * value);
             resolve(random);
-        } else {
-            reject('the value must be an integer')
-        }
+        } else reject('the value must be an integer')
     });
 }
 
