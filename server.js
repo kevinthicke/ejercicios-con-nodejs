@@ -10,5 +10,9 @@ const randomNumber = (value) => {
     });
 }
 
-randomNumber('Hola').then((result) => console.log(result))
-                    .catch((err) => console.log(`Error: ${err}`));
+const showResult = (value) => {
+    randomNumber(value).then((result) => console.log(result))
+                       .catch((err) => console.log(`Error: ${err}`));
+}
+
+scanf('%d', showResult);
