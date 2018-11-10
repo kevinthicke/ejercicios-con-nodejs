@@ -10,7 +10,7 @@ const randomNumber = (value) => {
 }
 
 const showResult = (value) => {
-    randomNumber(value).then((result) => console.log(`Random number between 0 and ${value} is ${result}`))
+    randomNumber(value).then((result) => console.log(`A random number between 0 and ${value} is ${result}`))
                        .catch((err) => console.log(`Error: ${err}`));
 }
 
