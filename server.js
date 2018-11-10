@@ -1,10 +1,12 @@
-const { scanf } = require('nodejs-scanf');
+const scanf = require('scanf');
 const fs = require('fs');
 
-/*fs.readFile('./files/relativity.txt', 'utf-8', (err, data) => {
+let filePath = scanf('%s');
+filePath = './files/' + filePath;
+
+fs.readFile(filePath, 'utf-8', (err, data) => {
     if (err) console.log('An error has ocurred');
     else console.log(data);
-});*/
+});
 
-const x = readline();
 
