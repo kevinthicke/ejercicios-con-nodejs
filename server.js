@@ -15,4 +15,5 @@ const showResult = (value) => {
                        .catch((err) => console.log(`Error: ${err}`));
 }
 
+console.log('Enter an integer:');
 scanf('%d', showResult);
