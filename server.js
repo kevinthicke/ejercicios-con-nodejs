@@ -1,5 +1,6 @@
 const { scanf } = require('nodejs-scanf');
 
+
 const randomNumber = (value) => {
     return new Promise((resolve, reject) => {
         if (typeof value == 'number') {
